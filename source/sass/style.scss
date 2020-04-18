@@ -1,3 +1,201 @@
 body {
-  background: red;
+  background-color: #fdfdfd;
+  width: 320px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0px;
+  border: 0px;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.header {
+
+
+  .nav {
+    outline: 2px solid red;
+
+    &__logo {
+
+
+    }
+    &__logo-image {
+
+    }
+    &__toggle {
+      background-image: url(../img/icon-mobile-menu.svg);
+      width: 24px;
+      height: 19px;
+      border: none;
+
+
+    }
+    &__wrapper {
+
+    }
+    &__list {
+
+    }
+  }
+}
+.logo {
+
+}
+.site-list {
+
+  &__item {
+
+  }
+}
+
+.section-photo {
+  height: 460px;
+
+  &__heading {
+    width: 300px;
+    font-size: 36px;
+    line-height: 36px;
+    position: absolute;
+    top: 100px ;
+    color: #ffffff;
+
+  }
+  &__text {
+    position: absolute;
+    bottom: 500px;
+    color: #ffffff;
+     text-transform: uppercase;
+     font-size: 14px;
+     line-height: 14px;
+  }
+  &__photo {
+
+
+  }
+  &__product {
+
+    background-image: url(../img/index-can-mobile@1x.png);
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 270px;
+    position: absolute;
+    left: 30px;
+    bottom: 200px;
+  }
+
+}
+.section-catalog {
+  &__link {
+    width: 280px;
+    height: 40px;
+    background-color: #68b738;
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+.list {
+  &__item {
+
+  }
+}
+.article {
+  &__icon {
+    display: block;
+    background-image: url(../img/icon-cat-slim.svg);
+    width: 35px;
+    height: 49px;
+
+
+  }
+  &__heading {
+    font-size: 24px;
+    line-height: 27px;
+
+  }
+  &__text {
+    font-size: 14px;
+    line-height: 18px;
+    color: #444444;
+
+  }
+  &__link {
+    font-size: 16px;
+    line-height: 16px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+
+  }
+}
+
+.advantages {
+  &__heading {
+    font-size: 36px;
+    line-height: 60px;
+
+  }
+}
+.advantages-list {
+  &__item {
+
+  }
+
+}
+.content {
+  &__icon {
+    display: block;
+    background-image: url(../img/advantage-leaf@1x.png);
+    width: 60px;
+    height: 60px;
+    background-color: #68b738;
+
+  }
+  &__text {
+    font-size: 14px;
+    line-height: 18px;
+    color: #444444;
+
+
+  }
+
+}
+.footer {
+  &__heading {
+    display: block;
+    background-image: url(../img/logo-footer.svg);
+    width: 128px;
+    height: 24px;
+    background-size: auto;
+
+
+  }
+}
+.social-list {
+  &__item {
+
+  }
+}
+.social-link {
+
+}
+.contact {
+  &__text {
+
+  }
+  &__link {
+    display: block;
+  background-image: url(../img/htmlacademy.svg);
+  width: 27px;
+  height: 34px;
+  background-repeat: no-repeat;
+
+  }
 }
